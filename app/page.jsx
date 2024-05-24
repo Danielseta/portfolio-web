@@ -1,5 +1,10 @@
-import Image from 'next/image';
+// componets 
+import Hero from '@/components/Hero';
 
-export default function() {
-  return <main>homepage</main>;
+export default function Home() {
+  return (
+  <main>
+    <Hero />
+  </main>
+  );
 };
