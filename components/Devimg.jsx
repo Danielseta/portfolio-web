@@ -1,10 +1,15 @@
-import Image from 'next/image';
+import Image from "next/image";
 
 const DevImg = ({ containerStyles, imgSrc }) => {
   return (
     <div className={`${containerStyles}`}>
-      <Image src={imgSrc} fill priority alt='' />
-
+      <Image
+        className="border-transparent outline-transparent"
+        src={imgSrc}
+        fill
+        priority
+        alt="Avatar Image"
+      />
     </div>
   );
 };
