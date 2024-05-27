@@ -51,6 +51,8 @@ const Hero = () => {
           </div>
           {/*   image */}
           <div className="hidden xl:flex relative">
+            {/** badge not added will be added on a future */}
+            <Badge />
             <div
               className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] 
                     h-[500px] bg-no-repeat absolute -top-1 -right-2"
