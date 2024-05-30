@@ -136,7 +136,17 @@ const skillData = [
 ];
 
 const About = () => {
-    return <div>About</div>;
+    const getData = (arr, title) => {
+        return arr.find((item) => item.title === title);
+    };
+    
+    return (
+    <section>
+        <div className='conatainer mx-auto'>
+            <h2 className='section-title'>About me</h2>
+        </div>
+    </section>
+    );
 };
 
 export default About;
