@@ -1,6 +1,6 @@
 import DevImg from './Devimg';
 import Image from 'next/image';
-import { Tabs, TabsContent, TabList, TabsTrigger } from '@/components/ui/tabs';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
 import {
     User2,
@@ -11,6 +11,7 @@ import {
     Calendar,
     Briefcase,
 } from 'lucide-react';
+
 
 const infoData = [
     {
@@ -144,13 +145,45 @@ const About = () => {
     <section className='xl:h-[860px] pb-12 xl:py-24'>
         <div className='conatainer mx-auto'>
             <h2 className='section-title mb-8 xl:mb-16 text-center mx-auto'>About me</h2>
-            <div>
+            <div className='flex flex-col xl:flex-row'>
                 {/** */}
-                <div>
+                <div className='hidden xl:flex flex-1 relative'>
                     <DevImg containerStyles='bg-about_shape_light dark:bg-about_shape_dark 
-                    w-[505px] h-[505px] bg-no-repeat relative' imgSrc='/about/developer.png'
+                    w-[505px] h-[505px] bg-no-repeat relative' imgSrc=''
                     />
                 </div>
+                {/** tabs  */}
+               <div className='flex-1'>
+                <Tabs defaultValue='personal'>
+                    <TabsList className='w-full grid xl:grid-cols-3 xl:max-w[520px] xl:border dark:border-none'>
+                    <TabsTrigger className='w-[162px] xl:w-auto' value='personal'>Personal Info</TabsTrigger>
+                    <TabsTrigger className='w-[162px] xl:w-auto' value='qualifications'>Qualifications</TabsTrigger>
+                    <TabsTrigger className='w-[162px] xl:w-auto' value='skills'>Skills</TabsTrigger>
+                    </TabsList>
+                    {/** content */}
+                    <div className='text-lg mt-qw xl:mt-8'>
+                        <TabsContent value='personal'>
+                            <div className='text-center xl:text-left'>
+                            <h3 className='h3 mb-4'>Creative and Quality serivce for you</h3>
+                            <p className='subtitle mx-w-xl max-auto xl:mx-0'>I specialize in crafting intvitive websites with cutting-edge technology, delivering dynamic and engaging user experience</p>
+                            {/** icons */}
+                            <div className='grid xl:grid-cols-2 gap-4 mb-12'>
+                                {infoData.map((item, index) => {
+                                    return (
+                                        <div className='flex items-center gap-x-4 mx-auto xl:mx-0' key={index}>
+                                          <div className='text-primary'>{item.icon}</div>
+                                          <div>{item.text}</div>
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        </div>
+                        </TabsContent>
+                        <TabsContent value='qualifications'>qualifications info</TabsContent>
+                        <TabsContent value='skills'>skills info</TabsContent>
+                    </div>
+                </Tabs>
+               </div>
             </div>
         </div>
     </section>
