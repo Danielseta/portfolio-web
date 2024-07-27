@@ -13,9 +13,13 @@ module.exports = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1400px',
       },
     },
+    
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -84,6 +88,8 @@ module.exports = {
         about_shape_dark: 'url(/about/shape-dark.svg)',
         dots_light: 'url(/dots-light.svg)',
         dots_dark: 'url(/dots-dark.svg)',
+        work_project_bg_light: 'url(/work/project-bg-light.png)',
+        work_project_bg_dark: 'url(/work/project-bg-dark.png',
       },
     },
   },
