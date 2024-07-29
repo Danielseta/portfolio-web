@@ -78,7 +78,7 @@ const Reviews = () => {
                      <SwiperSlide key={index}>
                         <Card className='bg-tertiary dark-bg-secondary/40 p-8 min-h[300px]'>
                           <CardHeader className='p-0 mb-10'>
-                            <div>
+                            <div className='flex items-center gap-x-4'>
                                 {/** image */}
                                 <Image 
                                    src={person.avatar}
@@ -87,6 +87,11 @@ const Reviews = () => {
                                    alt=''
                                    priority
                                 />
+                                {/** NAME  */}
+                                <div className='flex flex-col'>
+                                   <CardTitle>{person.name}</CardTitle>
+                                   <p>{person.job}</p>
+                                </div>
                             </div>
                           </CardHeader>
                           <CardDescription className='text-lg text-muted-foreground'>
