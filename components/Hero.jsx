@@ -26,8 +26,8 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">Hello, my name is Daniel Seta</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Brief description with insights into myself, my vocational
-              journey, and what i engage in professionally
+             A passionate developer with a strong frontend focus, constantly seeking to learn, innovate
+             and build exceptional digital experiences.
             </p>
             {/** buttons */}
             <div

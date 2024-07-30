@@ -10,18 +10,18 @@ import {
 const servicesData = [
     {
         icon: <GanttChartSquare size={72} strakeWidth={0.8} />,
-        title: 'Web Design',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro velit quibusdam temporibus tenetur necessitatibus.',
+        title: 'Graphics Designer',
+        description: 'Unleash the power of visuals. Transform concepts into captivating designs. Elevate your brand with expert design.',
     },
     {
         icon: <Blocks size={72} strakeWidth={0.8} />,
         title: 'Web Development',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro velit quibusdam temporibus tenetur necessitatibus.',
+        description: 'Crafting digital experiences that captivate. Building high-performance websites from the ground up. Your vision, our code.',
     },
     {
         icon: <Gem size={72} strakeWidth={0.8} />,
         title: 'UI/UX Developer',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro velit quibusdam temporibus tenetur necessitatibus.',
+        description: 'Designing user experiences that matter. Crafting intuitive and engaging interfaces. Your vision, our user-focused solutions.',
     },
 ];
 
