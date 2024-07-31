@@ -17,39 +17,27 @@ import {Pagination} from 'swiper/modules'
 
 const reviewsData = [
     {
-        avatar: '/reviews/avatar-1.png',
+        avatar: '/reviews/Dribbble shot - 7.png',
         name: 'Emmanueal Muletambo',
         job: 'Climate Change Activist',
         review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ipsam sequi amet adipisci ',
     },
     {
-        avatar: '/reviews/avatar-1.png',
-        name: 'Emmanueal Muletambo',
-        job: 'Climate Change Activist',
+        avatar: '/reviews/Dribbble shot - 8.png',
+        name: 'Joshua Phiri',
+        job: 'BusinessMan',
         review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ipsam sequi amet adipisci ',
     },
     {
-        avatar: '/reviews/avatar-1.png',
-        name: 'Emmanueal Muletambo',
-        job: 'Climate Change Activist',
+        avatar: '/reviews/Dribbble shot - 9.png',
+        name: 'Johlindah C Kalenda',
+        job: 'Photographer/Student',
         review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ipsam sequi amet adipisci ',
     },
     {
-        avatar: '/reviews/avatar-1.png',
-        name: 'Emmanueal Muletambo',
-        job: 'Climate Change Activist',
-        review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ipsam sequi amet adipisci ',
-    },
-    {
-        avatar: '/reviews/avatar-1.png',
-        name: 'Emmanueal Muletambo',
-        job: 'Climate Change Activist',
-        review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ipsam sequi amet adipisci ',
-    },
-    {
-        avatar: '/reviews/avatar-1.png',
-        name: 'Emmanueal Muletambo',
-        job: 'Climate Change Activist',
+        avatar: '/reviews/Dribbble shot - 10.png',
+        name: 'Musa Mwanza',
+        job: 'Ui/UX Designer',
         review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ipsam sequi amet adipisci ',
     },
 ];

@@ -17,15 +17,15 @@ import ProjectCard from '@/components/ProjectCard';
 {/** add projects worked on  */}
 const projectData = [
     {
-        image: '/work/5.png',
+        image: '/work/Dribbble shot - 1.png',
         category: 'UI/UX',
         name: 'App Design',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
+        description: 'A daily activity tracker app featuring a clear calender view, detail activity screen with notes and statictics with a user settings profile. ',
         link: '/',
         github: '/',
     },
     {
-        image: '/work',
+        image: '/work/Dribbble shot - 2.png',
         category: '',
         name: '',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
@@ -33,7 +33,7 @@ const projectData = [
         github: '/',
     },
     {
-        image: '/work',
+        image: '/work/Dribbble shot - 3.png',
         category: '',
         name: '',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
@@ -41,7 +41,7 @@ const projectData = [
         github: '/',
     },
     {
-        image: '/work',
+        image: '/work/Dribbble shot - 4.png',
         category: '',
         name: '',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
