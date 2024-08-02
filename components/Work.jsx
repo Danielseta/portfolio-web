@@ -20,7 +20,7 @@ const projectData = [
         image: '/work/Dribbble shot - 1.png',
         category: 'UI/UX',
         name: 'App Design',
-        description: 'A daily activity tracker app featuring a clear calender view, detail activity screen with notes and statictics with a user settings profile. ',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         link: '/',
         github: '/',
     },
@@ -41,7 +41,7 @@ const projectData = [
         github: '/',
     },
     {
-        image: '/work/Dribbble shot - 4.png',
+        image: '/work/Dribbble shot - 4',
         category: '',
         name: '',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
@@ -55,7 +55,7 @@ const Work = () => {
         <section className='relative mb-12 xl:mb-48'>
             <div className='container mx-auto'>
                 {/** text */}
-                <div className=' max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start'>
+                <div className=' container max-auto max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start'>
                     <h2 className='section-title mb-4'>Latest Projects</h2>
                     <p className='subtitle mb-8'>A Glimpse Into Our Portfolio</p>
                         <Link href='/projects'>
@@ -63,8 +63,8 @@ const Work = () => {
                         </Link>
                 </div>
                 {/** sidebar */}
-                <div className='xl:max-w-[750px] xl:absolute right-0 top-0'>
-                    <Swiper className='h-[480px]' slidesPerView={1} breakpoints={{
+                <div className='container max-auto'>
+                    <Swiper className='h-[495px]' slidesPerView={1} breakpoints={{
                         640: {
                             slidesPerView: 2
                         }

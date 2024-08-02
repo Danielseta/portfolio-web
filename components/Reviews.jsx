@@ -30,8 +30,8 @@ const reviewsData = [
     },
     {
         avatar: '/reviews/Dribbble shot - 9.png',
-        name: 'Johlindah C Kalenda',
-        job: 'Photographer/Student',
+        name: 'Denise Seti',
+        job: 'Student',
         review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ipsam sequi amet adipisci ',
     },
     {
