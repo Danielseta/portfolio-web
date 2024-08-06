@@ -11,19 +11,19 @@ import Link from 'next/link';
 
 const icons = [
   {
-    path: '/',
+    path: 'https://www.linkedin.com/in/daniel-seta-4449b12a3',
     name: <RiLinkedinFill />
   },
   {
-    path: '/',
+    path: 'https://github.com/Danielseta',
     name: <RiGithubFill />
   },
   {
-    path: '/',
+    path: 'https://www.instagram.com/ui.daniel_seta?igsh=MW15dWZsbWpvc3Vkdw==',
     name: <RiInstagramFill />
   },
   {
-    path: '/',
+    path: 'https://behance.net/https://behance.net/Daniel',
     name: <RiBehanceFill />
   },
 ];
