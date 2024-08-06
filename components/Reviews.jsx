@@ -20,25 +20,25 @@ const reviewsData = [
         avatar: '/reviews/Dribbble shot - 7.png',
         name: 'Emmanueal Muletambo',
         job: 'Climate Change Activist',
-        review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ipsam sequi amet adipisci ',
+        review: 'I was blown away by the quality of video and photography work done by Daniel. The website design is top notch, its modern, professional  and perfectly reflects our brand.',
     },
     {
         avatar: '/reviews/Dribbble shot - 8.png',
         name: 'Joshua Phiri',
         job: 'BusinessMan',
-        review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ipsam sequi amet adipisci ',
+        review: 'The logo design really captured the essence of my business and created a brand identity that perfectly represents me. The logo is clean, professional and memorable.',
     },
     {
         avatar: '/reviews/Dribbble shot - 9.png',
         name: 'Denise Seti',
         job: 'Student',
-        review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ipsam sequi amet adipisci ',
+        review: 'Was helped with a proper guide explaning everything in a way that was easy to understand and i was able to complete a project successfully. ',
     },
     {
         avatar: '/reviews/Dribbble shot - 10.png',
         name: 'Musa Mwanza',
         job: 'Ui/UX Designer',
-        review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus ipsam sequi amet adipisci ',
+        review: 'Worked on multiple projcts and has been fantastic. The ability to understand and complement my design vision os exceptional. His contributions were invaluable in bringing our projects to life ',
     },
 ];
 

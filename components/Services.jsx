@@ -33,7 +33,7 @@ const Services = () => {
                 My Services
             </h2>
             {/** grid items */}
-            <div className='grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8'>
+            <div className='grid xl:grid-cols-3 justify-center  gap-y-12 xl:gap-y-24 xl:gap-x-8'>
                 {servicesData.map((item, index) => {
                     return (
                         <Card className='w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative' key={index}>

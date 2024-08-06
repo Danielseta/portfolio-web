@@ -23,7 +23,7 @@ const Form = () => {
             <MessageSquare className='absolute top-4 right-6' size={20} />
         </div>
         <Button className='flex items-center gap-x-1 max-w-[166px]'>Let's Talk
-            <ArrowRightIcon size={20} />
+            <ArrowRightIcon size={20}    href='danielseta37@gmail.com' />
         </Button>
     </form>;
 };
