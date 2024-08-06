@@ -57,16 +57,11 @@ const Hero = () => {
               className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] 
                     h-[500px] bg-no-repeat absolute -top-1 -right-2"
             ></div>
-            <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom" />
+            <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc='/hero/Asset 4@4x-8.png'/>
           </div>
         </div>
         {/* icon */}
-        <div
-          className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 
-            animate-bounce"
-        >
-          <RiArrowDownSLine className="text-3xl text-primary" />
-        </div>
+       
       </div>
     </section>
   );
