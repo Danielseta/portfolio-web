@@ -39,7 +39,11 @@ const Hero = () => {
                   Contact me <Send size={18} />
                 </Button>
               </Link>
-              
+              <Button variant="secondary" className="gap-x-2">
+                <a href="/doc/Cv.pdf" download> 
+                Download CV <Download size={18} />
+                </a>
+              </Button>
             </div>
             {/** socials */}
             <Socials
