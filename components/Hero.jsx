@@ -2,14 +2,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { Download, Send } from "lucide-react";
 
-import {
-  RiBriefcase4Fill,
-  RiTeamFill,
-  RiTodoFillm,
-  RiArrowDownSLine,
-} from "react-icons/ri";
-
-//componets
+//components
 import DevImg from "./DevImg";
 import Badge from "./Badge";
 import Socials from "./Socials";
@@ -26,8 +19,9 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">Hello, my name is Daniel Seta</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-             A passionate developer with a strong frontend focus, constantly seeking to learn, innovate
-             and build exceptional digital experiences.
+              A passionate developer with a strong frontend focus, constantly
+              seeking to learn, innovate and build exceptional digital
+              experiences.
             </p>
             {/** buttons */}
             <div
@@ -40,8 +34,8 @@ const Hero = () => {
                 </Button>
               </Link>
               <Button variant="secondary" className="gap-x-2">
-                <a href="/doc/Cv.pdf" download> 
-                Download CV <Download size={18} />
+                <a href="/doc/Cv.pdf" download>
+                  Download CV <Download size={18} />
                 </a>
               </Button>
             </div>
@@ -59,11 +53,16 @@ const Hero = () => {
               className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] 
                     h-[500px] bg-no-repeat absolute -top-1 -right-2"
             ></div>
-            <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom" imgSrc='/hero/Asset 6@4x-8.png'/>
+            <DevImg
+              classNames={{
+                wrapper:
+                  "bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom",
+              }}
+              src="/hero/Asset 6@4x-8.png"
+            />
           </div>
         </div>
         {/* icon */}
-       
       </div>
     </section>
   );
