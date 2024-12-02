@@ -61,6 +61,11 @@ const qualificationData = [
         title: 'experience',
         data: [
             {
+                company: 'Imbra',
+                role: 'Ui/Ux Developer',
+                years: '2024-09 - 2024-12',
+            },
+            {
                 company: 'InterWebb Technology, Zambia',
                 role: 'Junior UI Developer',
                 years: '2022-09 - Present',

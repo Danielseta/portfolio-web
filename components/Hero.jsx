@@ -22,12 +22,11 @@ const Hero = () => {
           {/* text  */}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
-              Developer
+              
             </div>
-            <h1 className="h1 mb-4">Hello, my name is Daniel Seta</h1>
+            <h1 className="h1 mb-4">Hi, I'm Daniel</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-             A passionate developer with a strong frontend focus, constantly seeking to learn, innovate
-             and build exceptional digital experiences.
+            "I'm a digital dreamer, turning pixels into magic! As a UI/UX designer. And as an aspiring frontend developer, I'm excited to bring those designs to life with clean code. Let's build something awesome together!.",
             </p>
             {/** buttons */}
             <div
